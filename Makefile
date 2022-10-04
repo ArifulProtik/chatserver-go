@@ -14,7 +14,10 @@ build: ## Build your project and put the output binary in out/bin/
 run:## Run Runs your project 
 	go run ./api/main.go
 
-
+## Dev 
+dev: ## Runs The app with hot reload in a Docker container
+	docker-compose up --build
+## Vendor
 vendor: ## Copy of all packages needed to support builds and tests in the vendor directory
 	go mod vendor
 

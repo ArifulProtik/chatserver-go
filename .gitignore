@@ -1,2 +1,4 @@
 bin/
 go.sum
+mongo-volume/
+tmp/
