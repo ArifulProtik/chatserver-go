@@ -1,15 +1,15 @@
 # chatserver-go
 
-## A one2one private chat server with golang mongodb
+A one2one private chat server with golang mongodb
 
-## Running The Application
+### Running The Application
 
 ** Use Command **
 `make help`
 
 ---
 
-## Tech Stack
+### Tech Stack
 
     - Golang
     - Mongodb
