@@ -3,10 +3,10 @@ package config
 import "github.com/spf13/viper"
 
 type Config struct {
-	AppInfo app
+	AppInfo App
 }
 
-type app struct {
+type App struct {
 	Name    string `yaml:"name"`
 	Version string `yaml:"version"`
 	Status  string `yaml:"status"`

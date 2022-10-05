@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/ArifulProtik/chatserver-go/config"
+	"github.com/ArifulProtik/chatserver-go/internal/logger"
 )
 
 func main() {
@@ -11,5 +10,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(cfg.AppInfo.Name)
+
+	logger := logger.New(&cfg.AppInfo)
+	logger.Info(cfg.AppInfo.Name)
 }

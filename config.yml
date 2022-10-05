@@ -1,4 +1,4 @@
 appinfo:
   name: Golang Private Chat Server
   version: "0.1.0"
-  status: development
+  status: dev
